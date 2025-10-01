@@ -8,10 +8,10 @@ Let's consider an example:
 
 We have an ADC with 4 bits. Each bit can be either high (1) or low (0). A general rule to remember with ADCs is that the number of possible values the ADC can represent is equal to 2^m, where m is the number of bits.
 
-This means our 4-bit ADC can represent 2^4 or 16 possible values.
+This means our 4-bit ADC can represent $$2^4$$ or 16 possible values.
 
 Now let's say that a sensor outputs a signal from 0 to 5 Volts. If we want to find the resolution of  our ADC in Volts we can take the range of the sensor and divide it by the number of steps taken by the ADC:
 
-(5V-0V)/(2^4 - 1) = 5V/15 = 0.333V.
+$$(5V-0V)/(2^4 - 1) = 5V/15 = 0.333V.
 
 * Notice that we are using the number of bits minus 1 (15). Although we have 16 values that can be represented by the ADC, the number of steps it takes from 0 to 5V (the range of our sensor) is 15. For example, if we start at a value of 0 and go to 1, two values need to be represented, but only one step is taken.
