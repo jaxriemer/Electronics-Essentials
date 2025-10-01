@@ -15,3 +15,11 @@ Now, let's say that a sensor outputs a signal from 0 to 5 Volts. If we want to f
 $$(5V-0V)/(2^4 - 1) = 5V/15 = 0.333V.$$
 
 * Notice that we are using the number of bits minus 1 (15). Although we have 16 values that can be represented by the ADC, the number of steps it takes from 0 to 5V (the range of our sensor) is 15. For example, if we start at a value of 0 and go to 1, two values need to be represented, but only one step is taken.
+
+------
+
+## Successive Approximation Method
+
+This is the most popular method for converting analog signals to digital signals.
+
+Here is a Block Diagram taken from the STM microelectronics website.  (ADC/images/SAR Block Diagram.png)
