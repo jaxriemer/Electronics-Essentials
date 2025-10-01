@@ -30,3 +30,6 @@ Here is a Block Diagram taken from the STM microelectronics website.
 Here is a table of what happens after each step:
 
 ![](https://github.com/jaxriemer/Electronics-Essentials/blob/main/ADC/images/SAR%20Steps.png)
+
+
+For more information, refer to the pdf provided by STM microelectronics https://www.st.com/resource/en/application_note/an1636-understanding-and-minimising-adc-conversion-errors-stmicroelectronics.pdf
