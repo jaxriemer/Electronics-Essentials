@@ -22,4 +22,6 @@ $$(5V-0V)/(2^4 - 1) = 5V/15 = 0.333V.$$
 
 This is the most popular method for converting analog signals to digital signals.
 
-Here is a Block Diagram taken from the STM microelectronics website.  ![](https://github.com/jaxriemer/Electronics-Essentials/blob/main/ADC/images/SAR%20Block%20Diagram.png))
+Here is a Block Diagram taken from the STM microelectronics website.  
+
+![](https://github.com/jaxriemer/Electronics-Essentials/blob/main/ADC/images/SAR%20Block%20Diagram.png)
